@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form col="4">
+    <image name="tryton-dialog-information" xexpand="0" xfill="0"/>
+    <label string="Apply discounts to contracts up to"
+        id="advice" yalign="0.0" xalign="0.0" xexpand="1" colspan="3"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="method"/>
+    <field name="method" widget="selection"/>
+    <label name="percentage"/>
+    <field name="percentage" factor="100"/>
+    <field name="categories" colspan="4"/>
+</form>
